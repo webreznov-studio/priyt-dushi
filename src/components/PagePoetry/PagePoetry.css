@@ -1,0 +1,4 @@
+.poetry-page__wrapper p{min-height: 1px;}
+.poetry-page__wrapper_name{font-size: 22px; font-weight: bold;}
+.poetry-page__wrapper_row{font-size: 20px; font-style: italic;}
+.poetry-page__wrapper_author{font-size: 18px; text-decoration: underline;}

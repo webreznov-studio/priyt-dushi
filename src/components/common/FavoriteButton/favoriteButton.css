@@ -1,0 +1,16 @@
+.favButton_block{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+.favButton_block_icon{
+    width: 20px;
+    height: 20px;
+    fill: azure;
+    transition: all 0.3s ease-in-out;
+}
+.poetry__item:hover .favButton_block_icon{
+    fill: black;
+}

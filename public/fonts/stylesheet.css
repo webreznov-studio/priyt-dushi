@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('PUBLIC_URL/fonts/subset-MontserratAlternates-Regular.eot');
+    src: url('PUBLIC_URL/fonts/subset-MontserratAlternates-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PUBLIC_URL/fonts/subset-MontserratAlternates-Regular.woff2') format('woff2'),
+        url('PUBLIC_URL/fonts/subset-MontserratAlternates-Regular.woff') format('woff'),
+        url('PUBLIC_URL/fonts/subset-MontserratAlternates-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('PUBLIC_URL/fonts/subset-MontserratAlternates-Medium.eot');
+    src: url('PUBLIC_URL/fonts/subset-MontserratAlternates-Medium.eot?#iefix') format('embedded-opentype'),
+        url('PUBLIC_URL/fonts/subset-MontserratAlternates-Medium.woff2') format('woff2'),
+        url('PUBLIC_URL/fonts/subset-MontserratAlternates-Medium.woff') format('woff'),
+        url('PUBLIC_URL/fonts/subset-MontserratAlternates-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

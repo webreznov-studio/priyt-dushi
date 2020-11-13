@@ -1,0 +1,47 @@
+.poetry__item{
+    position: relative;
+    display: flex;
+    flex-direction: row;   
+    color: #f0ffff;
+    text-decoration: none;
+    font-size: 22px;    
+    margin: 17px 0;
+    transition: all 0.2s ease-in;
+}
+.poetry__item .poetry__item_line{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f0ffff;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.2s ease-in;
+}
+.poetry__item:hover{
+    color: #444444;
+    text-shadow: none;
+}
+/* .poetry__item:hover .favButton_block_icon{
+    fill: black;
+} */
+.poetry__item:hover .poetry__item_line{
+    opacity: 1;
+}
+.poetry__item_column{    
+    text-align: center;
+    width: 25%;    
+}
+.poetry__item_column_name{
+    width: 40%;
+    padding-left: 10px;
+    text-align: left;
+    font-weight: 600;
+}
+.poetry__item_column_year{
+    width: 10%;
+}
+

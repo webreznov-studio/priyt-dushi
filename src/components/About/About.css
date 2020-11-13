@@ -1,0 +1,28 @@
+.about__wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 768px;
+  margin: 16px auto 0;
+}
+@media all and (max-width: 1280px) {
+  .about__wrapper {
+    margin: 60px auto 0 auto;
+    max-width: 728px;
+  }
+}
+@media all and (max-width: 768px) {
+  .about__wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+}
+@media all and (max-width: 767px) {
+  .about__wrapper img {
+    width: 200px;
+  }
+  .about__wrapper p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}

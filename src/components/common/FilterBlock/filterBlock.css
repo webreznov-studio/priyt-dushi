@@ -1,0 +1,46 @@
+.filter__block{
+    position: relative;
+    display: flex;
+    flex-direction: row;         
+    margin: 17px 0;
+}
+.filter__item_column{    
+    text-align: center;
+    width: 25%;
+}
+.filter__item_column button{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: #f0ffff;
+    text-decoration: none;
+    font-size: 18px;  
+    font-weight: 800;
+    border: none;
+    background: none;
+    outline: none;
+}
+.filter__item_column_name{
+    position: relative;
+    width: 40%;
+    padding-left: 10px;
+    text-align: left;    
+}
+.filter__item_column button:after{
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: -5px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #f0ffff;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 5px solid transparent;
+}
+.filter__item_column_year{
+    width: 10%;
+}
+.filter__item_column .active{
+    color: grey;
+}
